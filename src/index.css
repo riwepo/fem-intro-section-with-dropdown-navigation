@@ -3,3 +3,10 @@
 body {
   font-family: "Epilogue", sans-serif;
 }
+
+/* global reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
