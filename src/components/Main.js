@@ -7,7 +7,7 @@ import classes from "./Main.module.css";
 function Main() {
   return (
     <div className={classes.main}>
-      <img src={heroImage} alt="fred" />
+      <img src={heroImage} alt="young man holding laptop" />
       <h1>Make remote work</h1>
       <p>
         Get your team in sync, no matter your location. Streamline processes,
