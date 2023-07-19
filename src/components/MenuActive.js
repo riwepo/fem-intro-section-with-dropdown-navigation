@@ -15,11 +15,14 @@ function MenuActive({ onMenuClose }) {
           alt="close icon"
           onClick={onMenuClose}
         />
-        <p>menu active</p>
-        <p>menu active</p>
-        <p>menu active</p>
-        <p>menu active</p>
-        <p>menu active</p>
+        <div className={classes.MenuItemsContainer}>
+          <p>Feature</p>
+          <p>Company</p>
+          <p>Careers</p>
+          <p>About</p>
+        </div>
+        <p>Login</p>
+        <button className={classes.button}>Register</button>
       </div>
     </>
   );
