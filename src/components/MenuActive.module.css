@@ -1,0 +1,15 @@
+.menuActive {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem 1rem;
+}
+
+.closeIcon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin-left: auto;
+}
