@@ -1,3 +1,13 @@
+.menuActiveOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(0, 0%, 41%, 0.8);
+  z-index: 10;
+}
+
 .menuActive {
   display: flex;
   flex-direction: column;
@@ -5,6 +15,8 @@
   top: 0;
   right: 0;
   padding: 1rem 1rem;
+  z-index: 100;
+  background-color: white;
 }
 
 .closeIcon {
