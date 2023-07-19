@@ -1,4 +1,10 @@
 .main {
+  --medium-grey-color: hsl(0, 0%, 41%);
+  --almost-black-color: hsl(0, 0%, 8%);
+  --white-color: white;
+}
+
+.main {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -9,8 +15,30 @@
 
 .main img {
   display: block;
-  width: 80%;
+  /* width: 80%; */
+  width: 10rem;
   aspect-ratio: 750/564;
   overflow: hidden;
   background-color: red;
+}
+
+.main .heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.main .text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--medium-grey-color);
+}
+
+.main .button {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--almost-black-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
 }

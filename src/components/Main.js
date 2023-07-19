@@ -8,12 +8,12 @@ function Main() {
   return (
     <div className={classes.main}>
       <img src={heroImage} alt="young man holding laptop" />
-      <h1>Make remote work</h1>
-      <p>
+      <h1 className={classes.heading}>Make remote work</h1>
+      <p className={classes.text}>
         Get your team in sync, no matter your location. Streamline processes,
         create team rituals, and watch productivity soar.
       </p>
-      <button>Learn more</button>
+      <button className={classes.button}>Learn more</button>
     </div>
   );
 }
