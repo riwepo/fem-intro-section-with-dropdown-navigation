@@ -6,19 +6,22 @@ import classes from "./MenuActive.module.css";
 
 function MenuActive({ onMenuClose }) {
   return (
-    <div className={classes.menuActive}>
-      <img
-        className={classes.closeIcon}
-        src={imgCloseMenu}
-        alt="close icon"
-        onClick={onMenuClose}
-      />
-      <p>menu active</p>
-      <p>menu active</p>
-      <p>menu active</p>
-      <p>menu active</p>
-      <p>menu active</p>
-    </div>
+    <>
+      <div className={classes.menuActiveOverlay}></div>
+      <div className={classes.menuActive}>
+        <img
+          className={classes.closeIcon}
+          src={imgCloseMenu}
+          alt="close icon"
+          onClick={onMenuClose}
+        />
+        <p>menu active</p>
+        <p>menu active</p>
+        <p>menu active</p>
+        <p>menu active</p>
+        <p>menu active</p>
+      </div>
+    </>
   );
 }
 
