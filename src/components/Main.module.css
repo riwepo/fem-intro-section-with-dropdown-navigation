@@ -1,3 +1,16 @@
 .main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main img {
+  display: block;
+  width: 80%;
+  aspect-ratio: 750/564;
+  overflow: hidden;
   background-color: red;
 }
