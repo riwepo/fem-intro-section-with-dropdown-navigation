@@ -11,19 +11,29 @@
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.5rem;
+  gap: 1rem;
 }
 
 .main img {
-  display: block;
-  /* width: 80%; */
-  width: 10rem;
+  /* display: block; */
+  width: 100%;
+  /* width: 10rem; */
   aspect-ratio: 750/564;
   overflow: hidden;
   background-color: red;
 }
 
 .main .heading {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
