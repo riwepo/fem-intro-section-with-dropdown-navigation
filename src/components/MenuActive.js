@@ -21,8 +21,12 @@ function MenuActive({ onMenuClose }) {
           <p>Careers</p>
           <p>About</p>
         </div>
-        <p>Login</p>
-        <button className={classes.button}>Register</button>
+        <button className={`${classes.button} ${classes.loginButton}`}>
+          Login
+        </button>
+        <button className={`${classes.button} ${classes.registerButton}`}>
+          Register
+        </button>
       </div>
     </>
   );
