@@ -1,0 +1,13 @@
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.menuContainer a {
+  text-decoration: none;
+  color: inherit;
+}
