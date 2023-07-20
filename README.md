@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.comhttps://github.com/riwepo/fem-intro-section-with-dropdown-navigation)
-- Live Site URL: [live site URL](https://riwepo.github.io/fem-intro-section-with-dropdown-navigation/)
+- Solution URL: [https://github.com/riwepo/fem-intro-section-with-dropdown-navigation](https://github.com/riwepo/fem-intro-section-with-dropdown-navigation)
+- Live Site URL: [https://riwepo.github.io/fem-intro-section-with-dropdown-navigation/](https://riwepo.github.io/fem-intro-section-with-dropdown-navigation/)
 
 ## My process
 
