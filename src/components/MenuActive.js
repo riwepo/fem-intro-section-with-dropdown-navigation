@@ -17,11 +17,13 @@ function MenuActive({ onMenuClose }) {
           alt="close icon"
           onClick={onMenuClose}
         />
-        <div className={classes.MenuItemsContainer}>
-          <MenuItemCollapsible label="Feature">
-            <p>Hello</p>
+        <div className={classes.menuItemsContainer}>
+          <MenuItemCollapsible label="Features">
+            <p>Hello features</p>
           </MenuItemCollapsible>
-          <p>Company</p>
+          <MenuItemCollapsible label="Company">
+            <p>Hello company</p>
+          </MenuItemCollapsible>
           <p>Careers</p>
           <p>About</p>
         </div>
