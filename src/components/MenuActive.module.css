@@ -13,6 +13,13 @@
   --white-color: white;
 }
 
+.closeIcon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
 .menuActive {
   position: fixed;
   top: 0;
@@ -30,11 +37,12 @@
   color: var(--medium-gray-color);
 }
 
-.closeIcon {
-  width: 2rem;
-  height: 2rem;
-  cursor: pointer;
-  margin-left: auto;
+.menuItemsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-content: flex-start;
 }
 
 .button {
