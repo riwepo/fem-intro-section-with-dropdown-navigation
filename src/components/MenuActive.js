@@ -2,6 +2,8 @@ import React from "react";
 
 import imgCloseMenu from "../images/icon-close-menu.svg";
 
+import MenuItemCollapsible from "./MenuItemCollapsible";
+
 import classes from "./MenuActive.module.css";
 
 function MenuActive({ onMenuClose }) {
@@ -16,7 +18,9 @@ function MenuActive({ onMenuClose }) {
           onClick={onMenuClose}
         />
         <div className={classes.MenuItemsContainer}>
-          <p>Feature</p>
+          <MenuItemCollapsible label="Feature">
+            <p>Hello</p>
+          </MenuItemCollapsible>
           <p>Company</p>
           <p>Careers</p>
           <p>About</p>
