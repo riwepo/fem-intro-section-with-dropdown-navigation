@@ -3,6 +3,7 @@ import React from "react";
 import imgCloseMenu from "../images/icon-close-menu.svg";
 
 import MenuItemCollapsible from "./MenuItemCollapsible";
+import FeaturesMenu from "./FeaturesMenu";
 
 import classes from "./MenuActive.module.css";
 
@@ -19,7 +20,7 @@ function MenuActive({ onMenuClose }) {
         />
         <div className={classes.menuItemsContainer}>
           <MenuItemCollapsible label="Features">
-            <p>Hello features</p>
+            <FeaturesMenu />
           </MenuItemCollapsible>
           <MenuItemCollapsible label="Company">
             <p>Hello company</p>

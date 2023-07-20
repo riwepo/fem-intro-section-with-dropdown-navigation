@@ -1,0 +1,21 @@
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.menuItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menuItemContainer a {
+  text-decoration: none;
+  color: inherit;
+}
