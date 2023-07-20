@@ -43,6 +43,18 @@
   justify-content: space-between;
   gap: 0.5rem;
   align-content: flex-start;
+  align-items: flex-start;
+}
+
+.menuButton {
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  color: var(--medium-gray-color);
+  background-color: var(--white-color);
+  text-align: left;
+  align-self: flex-start;
 }
 
 .button {
