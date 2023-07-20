@@ -46,15 +46,10 @@
   align-items: flex-start;
 }
 
-.menuButton {
-  border: none;
+.anchor {
+  text-decoration: none;
   font: inherit;
-  cursor: pointer;
-  padding: 0;
   color: var(--medium-gray-color);
-  background-color: var(--white-color);
-  text-align: left;
-  align-self: flex-start;
 }
 
 .button {

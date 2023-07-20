@@ -24,8 +24,12 @@ function MenuActive({ onMenuClose }) {
           <MenuItemCollapsible label="Company">
             <p>Hello company</p>
           </MenuItemCollapsible>
-          <button className={classes.menuButton}>Careers</button>
-          <button className={classes.menuButton}>About</button>
+          <a className={classes.anchor} href="/dummy">
+            Careers
+          </a>
+          <a className={classes.anchor} href="/dummy">
+            About
+          </a>
         </div>
         <button className={`${classes.button} ${classes.loginButton}`}>
           Login
