@@ -17,9 +17,10 @@
   position: fixed;
   top: 0;
   right: 0;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   padding: 1rem 1rem;
   z-index: 100;
@@ -42,8 +43,14 @@
   border: none;
   background-color: white;
   color: var(--medium-grey-color);
-  border: thin solid black;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
+}
+
+.button.loginButton {
+  border: none;
+}
+.button.registerButton {
+  border: thin solid black;
 }
