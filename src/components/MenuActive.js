@@ -4,6 +4,7 @@ import imgCloseMenu from "../images/icon-close-menu.svg";
 
 import MenuItemCollapsible from "./MenuItemCollapsible";
 import FeaturesMenu from "./FeaturesMenu";
+import CompanyMenu from "./CompanyMenu";
 
 import classes from "./MenuActive.module.css";
 
@@ -23,7 +24,7 @@ function MenuActive({ onMenuClose }) {
             <FeaturesMenu />
           </MenuItemCollapsible>
           <MenuItemCollapsible label="Company">
-            <p>Hello company</p>
+            <CompanyMenu />
           </MenuItemCollapsible>
           <a className={classes.anchor} href="/dummy">
             Careers
