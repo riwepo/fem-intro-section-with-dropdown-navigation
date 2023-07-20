@@ -1,0 +1,22 @@
+.button {
+  --medium-gray-color: hsl(0, 0%, 41%);
+  --white-color: white;
+}
+
+.button {
+  border: none;
+  background-color: var(--white-color);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  font: inherit;
+  color: var(--medium-gray-color);
+}
+
+.buttonContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}

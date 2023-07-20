@@ -15,13 +15,13 @@ function MenuItemCollapsible({ label, children }) {
 
   return (
     <>
-      <div className={classes.headerContainer}>
-        <p>{label}</p>
-        <button onClick={openToggleHandler}>
+      <button className={classes.button} onClick={openToggleHandler}>
+        <div className={classes.buttonContentContainer}>
+          <p>{label}</p>
           {!isOpen && <img src={closedIcon} alt="closed icon" />}
           {isOpen && <img src={openIcon} alt="open icon" />}
-        </button>
-      </div>
+        </div>
+      </button>
       {isOpen && children}
     </>
   );
