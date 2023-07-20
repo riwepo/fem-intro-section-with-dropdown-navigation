@@ -24,11 +24,11 @@
 }
 
 .main img {
-  /* width: 100%; */
-  width: 10rem;
+  width: 100%;
+  /* width: 10rem; */
   aspect-ratio: 750/564;
   overflow: hidden;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .main .heading {
