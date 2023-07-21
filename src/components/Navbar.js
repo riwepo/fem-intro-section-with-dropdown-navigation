@@ -16,7 +16,7 @@ function NavBar() {
   }
   return (
     <>
-      <nav className={classes.nav}>
+      <nav className={`${classes.nav} ${isOpen && classes.navOpen}`}>
         <button
           className={classes.openCloseButton}
           onClick={openCloseClickHandler}

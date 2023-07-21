@@ -7,18 +7,22 @@
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  /* justify-content: stretch; */
   gap: 2rem;
   z-index: 100;
   font-size: 1rem;
   font-weight: 500;
-  background-color: var(--white-color);
+  /* background-color: var(--white-color); */
+  background-color: red;
   color: var(--medium-gray-color);
+}
+
+.nav.open {
+  height: 100vh;
 }
 
 .openCloseButton {
