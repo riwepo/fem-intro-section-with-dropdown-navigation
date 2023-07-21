@@ -1,7 +1,32 @@
 .nav {
+  --white-color: white;
+  --medium-gray-color: hsl(0, 0%, 41%);
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
+  gap: 2rem;
   z-index: 100;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--white-color);
+  color: var(--medium-gray-color);
+}
+
+.openCloseButton {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  z-index: inherit;
+  align-self: flex-end;
 }
 
 .menuItemsContainer {
@@ -12,13 +37,32 @@
   align-content: flex-start;
   align-items: flex-start;
   z-index: inherit;
+  background-color: inherit;
+}
+
+.anchor {
+  text-decoration: none;
+  font: inherit;
+  color: var(--medium-gray-color);
 }
 
 .button {
+  padding: 0.5rem 4rem;
+  border-radius: 0.5rem;
   border: none;
-  background-color: transparent;
+  background-color: inherit;
+  color: var(--medium-grey-color);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
-  z-index: inherit;
+}
+
+.button.loginButton {
+  border: none;
+}
+.button.registerButton {
+  border: thin solid black;
 }
 
 .openOverlay {
