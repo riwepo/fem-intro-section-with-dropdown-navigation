@@ -14,7 +14,7 @@ function Main() {
           <img src={imageHeroMobile} alt="young man holding laptop" />
         </picture>
       </article>
-      {/* <img src={heroImage} alt="young man holding laptop" /> */}
+
       <article className={classes.textContainer}>
         <h1 className={classes.heading}>Make remote work</h1>
         <p className={classes.text}>
