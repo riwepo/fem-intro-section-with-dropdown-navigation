@@ -1,13 +1,20 @@
 import React from "react";
 
-import heroImage from "../images/image-hero-mobile.png";
+import imageHeroMobile from "../images/image-hero-mobile.png";
+import imageHeroDesktop from "../images/image-hero-desktop.png";
 
 import classes from "./Main.module.css";
 
 function Main() {
   return (
     <div className={classes.main}>
-      <img src={heroImage} alt="young man holding laptop" />
+      <article>
+        <picture>
+          <source media="(max-width: 768px)" srcSet={imageHeroDesktop} />
+          <img src={imageHeroMobile} alt="young man holding laptop" />
+        </picture>
+      </article>
+      {/* <img src={heroImage} alt="young man holding laptop" /> */}
       <div className={classes.textContainer}>
         <h1 className={classes.heading}>Make remote work</h1>
         <p className={classes.text}>
