@@ -49,6 +49,10 @@ Users should be able to:
 
 ### What I learned
 
+If you set your app to 100% viewport width, you can still get horizontal scroll bars.
+This is because of the need to fit the vertical scrollbar.
+Also need to set max-width to 100%.
+
 ### Continued development
 
 I just want to continue to create more complex React apps and become a bit faster at doing it.
