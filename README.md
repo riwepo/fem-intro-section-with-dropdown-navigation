@@ -63,4 +63,4 @@ none yet
 
 ## Acknowledgments
 
-none yet
+https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-kvBwr5EIjY
