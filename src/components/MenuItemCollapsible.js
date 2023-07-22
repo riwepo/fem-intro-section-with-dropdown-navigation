@@ -9,12 +9,11 @@ function MenuItemCollapsible({ label, children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const openToggleHandler = () => {
-    console.log("openToggleHandler");
     setIsOpen((current) => !current);
   };
 
   return (
-    <>
+    <div className={classes.menuItemContainer}>
       <button className={classes.button} onClick={openToggleHandler}>
         <div className={classes.buttonContentContainer}>
           <p>{label}</p>
@@ -23,7 +22,7 @@ function MenuItemCollapsible({ label, children }) {
         </div>
       </button>
       {isOpen && children}
-    </>
+    </div>
   );
 }
 
