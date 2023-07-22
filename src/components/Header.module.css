@@ -9,3 +9,12 @@
   position: relative;
   padding: 1rem 1rem;
 }
+
+.openCloseNavbarButton {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  z-index: inherit;
+  align-self: flex-end;
+  z-index: 3;
+}

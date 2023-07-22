@@ -1,7 +1,4 @@
-import React, { useState } from "react";
-
-import iconCloseMenu from "../images/icon-close-menu.svg";
-import iconMenu from "../images/icon-menu.svg";
+import React from "react";
 
 import MenuItemCollapsible from "./MenuItemCollapsible";
 import FeaturesMenu from "./FeaturesMenu";
@@ -9,22 +6,10 @@ import CompanyMenu from "./CompanyMenu";
 
 import classes from "./Navbar.module.css";
 
-function NavBar() {
-  const [isOpen, setIsOpen] = useState(false);
-  function openCloseClickHandler() {
-    setIsOpen((current) => !current);
-  }
+function Navbar({ isOpen }) {
   return (
     <>
-      <nav className={`${classes.nav} ${isOpen && classes.navOpen}`}>
-        <button
-          className={classes.openCloseButton}
-          onClick={openCloseClickHandler}
-        >
-          {!isOpen && <img src={iconMenu} alt="open menu icon" />}
-          {isOpen && <img src={iconCloseMenu} alt="close menu icon" />}
-        </button>
-
+      <nav className={`${classes.nav} ${isOpen && classes.open}`}>
         {isOpen && (
           <>
             <div className={classes.menuItemsContainer}>
@@ -55,4 +40,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
