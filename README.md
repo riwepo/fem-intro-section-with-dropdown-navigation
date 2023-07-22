@@ -68,3 +68,5 @@ none yet
 ## Acknowledgments
 
 https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-kvBwr5EIjY
+
+https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties
