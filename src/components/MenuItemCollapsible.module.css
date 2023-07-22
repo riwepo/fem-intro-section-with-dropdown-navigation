@@ -1,3 +1,9 @@
+.menuItemContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .button {
   border: none;
   cursor: pointer;
