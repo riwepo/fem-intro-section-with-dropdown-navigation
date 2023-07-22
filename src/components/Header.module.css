@@ -20,19 +20,11 @@
 }
 
 @media (min-width: 768px) {
+  .header {
+    justify-content: stretch;
+    gap: 2rem;
+  }
   .openCloseNavbarButton {
     display: none;
   }
 }
-
-/* .navbar {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    width: auto;
-    padding: 0;
-    z-index: auto;
-  } */
