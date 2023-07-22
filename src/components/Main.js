@@ -3,6 +3,8 @@ import React from "react";
 import imageHeroMobile from "../images/image-hero-mobile.png";
 import imageHeroDesktop from "../images/image-hero-desktop.png";
 
+import Footer from "./Footer";
+
 import classes from "./Main.module.css";
 
 function Main() {
@@ -22,6 +24,7 @@ function Main() {
           create team rituals, and watch productivity soar.
         </p>
         <button className={classes.button}>Learn more</button>
+        <Footer />
       </article>
     </section>
   );
