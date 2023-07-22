@@ -24,8 +24,8 @@ function Main() {
           create team rituals, and watch productivity soar.
         </p>
         <button className={classes.button}>Learn more</button>
+        <Footer />
       </article>
-      <Footer />
     </section>
   );
 }
