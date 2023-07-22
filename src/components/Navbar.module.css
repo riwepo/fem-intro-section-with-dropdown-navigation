@@ -4,41 +4,60 @@
 }
 
 .nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 4rem 1rem 2rem 1rem;
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
-  z-index: -1;
   font-size: 1rem;
   font-weight: 500;
-  background-color: transparent;
   color: var(--medium-gray-color);
+
+  /* mobile */
+  display: none;
+  padding: 4rem 1rem 2rem 1rem;
+
+  /* desktop */
+  /* width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--white-color);
+  z-index: 2;
+  padding: 4rem 1rem 2rem 1rem; */
 }
 
 .nav.open {
-  height: 100vh;
+  display: flex;
+
+  /* mobile */
+  position: fixed;
+  top: 0;
+  right: 0;
   z-index: 2;
+  flex-direction: column;
   background-color: var(--white-color);
+  height: 100vh;
 }
 
 .menuItemsContainer {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
   align-content: flex-start;
   align-items: flex-start;
   z-index: inherit;
   background-color: inherit;
+
+  /* mobile */
+  flex-direction: column;
+
+  /* desktop */
+  /* flex-direction: row; */
 }
 
 .anchor {
   text-decoration: none;
   font: inherit;
   color: var(--medium-gray-color);
+  z-index: inherit;
 }
 
 .button {
@@ -55,6 +74,9 @@
 
 .button.loginButton {
   border: none;
+
+  /* desktop */
+  /* margin-left: auto; */
 }
 .button.registerButton {
   border: thin solid black;
@@ -68,4 +90,28 @@
   height: 100%;
   background-color: hsl(0, 0%, 41%, 0.8);
   z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    /* desktop */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--white-color);
+    z-index: 2;
+    padding: 0;
+  }
+
+  .menuItemsContainer {
+    /* desktop */
+    flex-direction: row;
+  }
+
+  .button.loginButton {
+    /* desktop */
+    margin-left: auto;
+  }
 }
