@@ -10,7 +10,7 @@ function Main() {
     <section className={classes.main}>
       <article>
         <picture>
-          <source media="(max-width: 768px)" srcSet={imageHeroDesktop} />
+          <source media="(min-width: 768px)" srcSet={imageHeroDesktop} />
           <img src={imageHeroMobile} alt="young man holding laptop" />
         </picture>
       </article>
