@@ -9,7 +9,7 @@ import classes from "./Main.module.css";
 
 function Main() {
   return (
-    <section className={classes.main}>
+    <main role="main" className={classes.main}>
       <article className={classes.imgContainer}>
         <picture>
           <source media="(min-width: 768px)" srcSet={imageHeroDesktop} />
@@ -30,7 +30,7 @@ function Main() {
         <button className={classes.button}>Learn more</button>
         <Footer />
       </article>
-    </section>
+    </main>
   );
 }
 
