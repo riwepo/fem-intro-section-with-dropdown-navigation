@@ -22,13 +22,12 @@
 }
 
 @media (min-width: 768px) {
+  /* desktop */
   .header {
-    /* desktop */
-    /* justify-content: stretch;
-    gap: 2rem; */
+    justify-content: stretch;
+    gap: 2rem;
   }
   .openCloseNavbarButton {
-    /* desktop */
-    /* display: none; */
+    display: none;
   }
 }
