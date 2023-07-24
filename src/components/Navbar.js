@@ -9,7 +9,10 @@ import classes from "./Navbar.module.css";
 function Navbar({ isOpen }) {
   return (
     <>
-      <nav className={`${classes.nav} ${isOpen && classes.open}`}>
+      <nav
+        role="navigation"
+        className={`${classes.nav} ${isOpen && classes.open}`}
+      >
         <div className={classes.menuItemsContainer}>
           <MenuItemCollapsible label="Features">
             <FeaturesMenu />
