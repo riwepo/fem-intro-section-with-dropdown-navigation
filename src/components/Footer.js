@@ -10,10 +10,18 @@ import classes from "./Footer.module.css";
 function Footer() {
   return (
     <footer className={classes.footer}>
-      <img src={imgDataBiz} alt="databiz written logo" />
-      <img src={imgAudioPhile} alt="audiophile written logo" />
-      <img src={imgMeet} alt="meet written logo" />
-      <img src={imgMaker} alt="maker written logo" />
+      <img
+        className={classes.img}
+        src={imgDataBiz}
+        alt="databiz written logo"
+      />
+      <img
+        className={classes.img}
+        src={imgAudioPhile}
+        alt="audiophile written logo"
+      />
+      <img className={classes.img} src={imgMeet} alt="meet written logo" />
+      <img className={classes.img} src={imgMaker} alt="maker written logo" />
     </footer>
   );
 }
