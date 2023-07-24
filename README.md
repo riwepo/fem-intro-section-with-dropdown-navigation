@@ -75,5 +75,4 @@ https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-jus
 Thanks to [vivekrajput-93](https://www.frontendmentor.io/profile/vivekrajput-93),
 [his solution](https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-kvBwr5EIjY) helped me get from the mobile version to the desktop version.
 
-Thanks to [stackoverflow] (https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties
-)
+Thanks to [stackoverflow](https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties)
