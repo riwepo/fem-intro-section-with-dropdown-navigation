@@ -10,10 +10,14 @@ import classes from "./Main.module.css";
 function Main() {
   return (
     <section className={classes.main}>
-      <article>
+      <article className={classes.imgContainer}>
         <picture>
           <source media="(min-width: 768px)" srcSet={imageHeroDesktop} />
-          <img src={imageHeroMobile} alt="young man holding laptop" />
+          <img
+            className={classes.img}
+            src={imageHeroMobile}
+            alt="young man holding laptop"
+          />
         </picture>
       </article>
 
