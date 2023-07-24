@@ -74,6 +74,12 @@
   cursor: pointer;
   margin-bottom: 2rem;
 }
+.main .button:hover,
+.main .button:active {
+  background-color: var(--white-color);
+  color: var(--almost-black-color);
+  border: thin solid black;
+}
 
 @media (min-width: 768px) {
   /* desktop */
