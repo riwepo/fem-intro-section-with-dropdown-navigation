@@ -24,9 +24,9 @@
 
 @media (min-width: 768px) {
   .menuContainer {
-    position: fixed;
+    /* position: fixed;
     top: 4rem;
     padding: 1rem 1rem;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 10px 10px 8px #888888; */
   }
 }
