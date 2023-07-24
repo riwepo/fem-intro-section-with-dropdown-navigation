@@ -53,13 +53,18 @@ If you set your app to 100% viewport width, you can still get horizontal scroll 
 This is because of the need to fit the vertical scrollbar.
 Also need to set max-width to 100%.
 
+I need to do more pre-planning. I need to work out the general structure for the mobile version, and then the desktop version, and reconcile them.
+
 ### Continued development
 
 I just want to continue to create more complex React apps and become a bit faster at doing it.
+I need more practice in working with the different properties for the media queries.
+I find it challenging even if there is only two alternative screen layouts.
 
 ### Useful resources
 
-none yet
+A good explanation of how to shuffle things around in a flexbox.
+https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties
 
 ## Author
 
@@ -67,6 +72,8 @@ none yet
 
 ## Acknowledgments
 
-https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-kvBwr5EIjY
+Thanks to [vivekrajput-93](https://www.frontendmentor.io/profile/vivekrajput-93),
+[his solution](https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-kvBwr5EIjY) helped me get from the mobile version to the desktop version.
 
-https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties
+Thanks to [stackoverflow] (https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties
+)
