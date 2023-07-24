@@ -12,7 +12,7 @@ function Main() {
     <section className={classes.main}>
       <article className={classes.imgContainer}>
         <picture>
-          {/* <source media="(min-width: 768px)" srcSet={imageHeroDesktop} /> */}
+          <source media="(min-width: 768px)" srcSet={imageHeroDesktop} />
           <img
             className={classes.img}
             src={imageHeroMobile}
